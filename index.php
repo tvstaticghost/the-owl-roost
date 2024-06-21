@@ -1,9 +1,9 @@
 <?php 
 $routes = [
-    '/the-owl-roost/' => '/views/home.php',
-    '/the-owl-roost/course' => '/views/course.php',
-    '/the-owl-roost/communities' => '/views/communities.php',
-    '/the-owl-roost/resources' => '/views/resources.php',
+    '/' => '/views/home.php',
+    '/course' => '/views/course.php',
+    '/communities' => '/views/communities.php',
+    '/resources' => '/views/resources.php',
 ];
 
 $requestUri = $_SERVER['REQUEST_URI'];
