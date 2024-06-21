@@ -20,6 +20,8 @@ else {
     <title>Document</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="assets/css/index.css">
+    <link rel="icon" href="owl.sv" type="image/x-icon">
+    <link rel="shortcut icon" href="owl.svg" type="image/x-icon">
 </head>
 <body class="relative min-h-svh">
     <?php include('includes/header.php');?>
