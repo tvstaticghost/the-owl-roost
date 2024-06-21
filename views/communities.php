@@ -10,6 +10,8 @@ $communities = $conn->queryCommunities();
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Owl Roost | Communities</title>
     <link rel="stylesheet" href="assets/css/index.css">
+    <link rel="icon" href="owl.sv" type="image/x-icon">
+    <link rel="shortcut icon" href="owl.svg" type="image/x-icon">
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
