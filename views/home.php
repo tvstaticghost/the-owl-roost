@@ -119,10 +119,10 @@ else {
         </div>
     </main>
     <?php include('includes/footer.php')?>
-    <form action="/the-owl-roost/course" method="get" id="form">
+    <form action="/course" method="get" id="form">
         <input type="hidden" name="courseId" value="">
     </form>
     
-    <script src="http://localhost/the-owl-roost/assets/js/main.js"></script>
+    <script src="https://theowlroost.000webhostapp.com/assets/js/main.js"></script>
 </body>
 </html>
