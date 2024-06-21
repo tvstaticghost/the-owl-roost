@@ -1,0 +1,80 @@
+:root {
+    --background-color: #4A2F41;
+    --secondary-font-color: #CF8A93;
+    --amber: #d97706;
+
+    --lighter-background: #573d4e;
+}
+
+body {
+    background-color: var(--background-color);
+}
+
+.custom-color {
+    background-color: var(--background-color);
+}
+
+.custom-font {
+    color: var(--background-color);
+}
+
+.secondary-color {
+    color: var(--secondary-font-color);
+}
+
+.logo {
+    filter: invert(89%) sepia(4%) saturate(1033%) hue-rotate(193deg) brightness(107%) contrast(88%);
+}
+
+.dull-filter {
+    filter: invert(24%) sepia(11%) saturate(1237%) hue-rotate(268deg) brightness(92%) contrast(87%);
+}
+
+.logo-top, .logo-middle, .logo-bottom {
+    position: relative;
+}
+
+.logo-top {
+    top: 5px;
+}
+
+.logo-middle {
+    right: -5px;
+}
+
+.logo-bottom {
+    position: relative;
+    bottom: 6px;
+    right: -10px;
+}
+
+.lighter {
+    background-color: var(--lighter-background);
+}
+
+.font-background {
+    color: black;
+}
+
+.hover-font:hover {
+    color: rgba(0, 0, 0, 0.474);
+}
+
+/* classes for transition scale ups and downs */
+
+.scale-up {
+    transition-duration: 0.2s;
+    color: var(--amber);
+}
+
+.scale-down {
+    border-top: none;
+    transition-duration: 0.2s;
+    scale: 1;
+}
+
+/* Classes for icons */
+
+.faded {
+    opacity: 0.2;
+}
